@@ -12,7 +12,7 @@ Third Argument: SEARCH WORDS FOR INVERTED INDEX (OPTIONAL)
 - Here “input” is the input folder path.
 
 Assumptions:
-<p>1. Handled internal links within the pages. There are few links in the data in such format. Hence considered it as a self-link and calculated the page rank.</p>
+<p>Handled internal links within the pages. There are few links in the data in such format. Hence considered it as a self-link and calculated the page rank.</p>
 2. Replaced spaces with underscore(“_”) in title and page links as my logic of handling intermediate data is using spaces. So I just replaced spaces with underscores in title and page links, so that there would be no change in the data.
 3. Considered semi-colon (“;”) as my separator for the links.
 4. Calculated page rank only for pages in the corpus.
