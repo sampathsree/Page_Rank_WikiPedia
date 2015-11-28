@@ -1,15 +1,14 @@
 # Page_Rank_WikiPedia
-Running PageRank Algorithm on Wikipedia Data Set
-
-Steps to execute:
-1. Setup Hadoop input folder with sample input.
-2. Run Jar File
-hadoop jar PageRank.jar wiki.org.WikiPageRank_Runner input output “William,Sakura,wikipedia,basketball”
-Here the arguments for the above command are as follows:
-First Argument: INPUT DIRECTORY
-Second Argument: OUTPUT DIRECTORY
-Third Argument: SEARCH WORDS FOR INVERTED INDEX (OPTIONAL)
-- Here “input” is the input folder path.
+Running PageRank Algorithm on Wikipedia Data Set<br/>
+Steps to execute:<br/>
+1. Setup Hadoop input folder with sample input.<br/>
+2. Run Jar File<br/>
+hadoop jar PageRank.jar wiki.org.WikiPageRank_Runner input output “William,Sakura,wikipedia,basketball”<br/>
+Here the arguments for the above command are as follows:<br/>
+First Argument: INPUT DIRECTORY<br/>
+Second Argument: OUTPUT DIRECTORY<br/>
+Third Argument: SEARCH WORDS FOR INVERTED INDEX (OPTIONAL)<br/>
+- Here “input” is the input folder path.<br/>
 
 Assumptions:
 <p>1. Handled internal links within the pages. There are few links in the data in such format. Hence considered it as a self-link and calculated the page rank.</p>
