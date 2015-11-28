@@ -1,0 +1,7 @@
+<title>q0</title> <text>[[q2]]</text>
+<title>q1</title> <text>[[q1]][[q2]]</text>
+<title>q2</title> <text>[[q0]][[q2]][[q3]]</text>
+<title>q3</title> <text>[[q3]][[q4]]</text>
+<title>q4</title> <text>[[q6]]</text>
+<title>q5</title> <text>[[q5]][[q6]]</text>
+<title>q6</title> <text>[[q3]][[q4]][[q6]]</text>
