@@ -18,5 +18,5 @@ Assumptions:
 </p><p>4. Calculated page rank only for pages in the corpus.
 </p><p>5. Have calculated page rank even for pages which has no out links if and only if they are present in the corpus.
 </p>
-Implemented Inverted Indexer for text in the xml documents. InvertedIndexer.java files takes input folder and string of search words separated by comma.
+Implemented Inverted Indexer for text in the xml documents. InvertedIndexer.java files takes input folder and string of search words separated by comma.<br/>
 Java InvertedIndexer input “William,Sakura,wikipedia,basketball”
